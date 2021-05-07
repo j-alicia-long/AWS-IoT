@@ -17,7 +17,7 @@ device
 
 // Publish to myTopic
     device.publish("myTopic", JSON.stringify({
-      doorStatus: 'Open'
+      doorOpen: true
     }));
 });
 
